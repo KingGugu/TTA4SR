@@ -60,5 +60,10 @@ python main.py --data_name=Sports --star_test=450 --model_name=GRU4Rec
 
 Please cite our paper if you use this code.
 ```
-
+@article{dang2025data,
+  title={Data Augmentation as Free Lunch: Exploring the Test-Time Augmentation for Sequential Recommendation},
+  author={Dang, Yizhou and Liu, Yuting and Yang, Enneng and Huang, Minhan and Guo, Guibing and Zhao, Jianzhe and Wang, Xingwei},
+  journal={arXiv preprint arXiv:2504.04843},
+  year={2025}
+}
 ```
