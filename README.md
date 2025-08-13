@@ -1,6 +1,5 @@
 ## TTA4SR
-Official source code for SIGIR 2025 paper: Data Augmentation as Free Lunch: Exploring the Test-Time Augmentation for Sequential Recommendation
-
+Official source code for SIGIR 2025 paper: [Data Augmentation as Free Lunch: Exploring the Test-Time Augmentation for Sequential Recommendation](https://arxiv.org/abs/2504.04843)
 ## Run the Code
 
 Go to the `src` folder in the `GRU4Rec` and `SASRec` directories, then run the following commands. We provide the original pretrained model.
@@ -60,10 +59,11 @@ python main.py --data_name=Sports --star_test=450 --model_name=GRU4Rec
 
 Please cite our paper if you use this code.
 ```
-@article{dang2025data,
-  title={Data Augmentation as Free Lunch: Exploring the Test-Time Augmentation for Sequential Recommendation},
+@inproceedings{dang2025data,
+  title={Data augmentation as free lunch: Exploring the test-time augmentation for sequential recommendation},
   author={Dang, Yizhou and Liu, Yuting and Yang, Enneng and Huang, Minhan and Guo, Guibing and Zhao, Jianzhe and Wang, Xingwei},
-  journal={arXiv preprint arXiv:2504.04843},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={1466--1475},
   year={2025}
 }
 ```
