@@ -193,7 +193,7 @@ class SASRecTrainer(Trainer):
 
     def test_aug(self, dataloader):
 
-        if self.args.TTA_type == 'TMask-R' or self.args.TTA_type == 'TMask-D':
+        if self.args.TTA_type == 'TMask-R' or self.args.TTA_type == 'TMask-B':
             rec_data_iter = tqdm(enumerate(dataloader),
                                  total=len(dataloader),
                                  bar_format="{l_bar}{r_bar}")
